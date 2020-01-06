@@ -1,9 +1,10 @@
-import React from 'react';
+import React,{Fragment} from 'react';
+import Header from './components/Header'
 
 function App() {
   return (
+    <Header/>
     
-    <h2>It,Works</h2>
   );
 }
 
