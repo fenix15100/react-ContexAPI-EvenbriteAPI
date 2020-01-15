@@ -18,7 +18,7 @@ class CategoryProvider extends Component {
 
     getCategories = async () =>{
         const _token = process.env.REACT_APP_TOKEN_EVENBRITE;
-        const url = `https://www.eventbriteapi.com/v3/categories/?locale=es_ES`;
+        const url = `https://www.eventbriteapi.com/v3/categories/`;
         const request = {
             method : 'GET',
             headers : {
